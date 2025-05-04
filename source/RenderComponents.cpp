@@ -1,0 +1,33 @@
+#include "RenderComponents.h"
+
+//////////////////////////////////////////////////////////////////////
+// TransformComponent
+//////////////////////////////////////////////////////////////////////
+
+TransformComponent::TransformComponent()
+{
+    m_Position = InitVec2(0.0f, 0.0f);
+    m_Rotation = 0.0f;
+}
+
+TransformComponent::~TransformComponent()
+{
+}
+
+//////////////////////////////////////////////////////////////////////
+// SpriteComponent
+//////////////////////////////////////////////////////////////////////
+
+SpriteComponent::SpriteComponent()
+{
+    m_Image = -1;
+}
+
+SpriteComponent::~SpriteComponent()
+{
+}
+
+void SpriteComponent::LoadSprite(const char* pFilename)
+{
+    m_Image = load_image(pFilename);
+}
