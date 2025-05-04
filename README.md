@@ -1,5 +1,5 @@
 # ecs-playground
-Weird OOP impmenetation of ECS (Entity-Component-System) in C++ 
+Weird OOP implementation of ECS (Entity-Component-System) in C++ 
 
 ![250 sprites](https://github.com/ugozapad/ecs-playground/raw/main/resources/image1.png)
 
